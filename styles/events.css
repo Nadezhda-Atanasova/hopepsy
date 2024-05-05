@@ -1,0 +1,160 @@
+button{
+    font-family: 'Montserrat';
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(143, 58, 143);
+    border-radius: 18px;
+    padding: 10px;
+    transition: opacity 0.05s, background-color 0.2s, color 0.2s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(143, 58, 143);
+    color: white;
+}
+button:active{
+    opacity: 0.8;
+}
+h1{
+    font-family: Montserrat;
+    color: rgb(143, 58, 143);
+    margin-left: 70px;
+}
+p{
+    font-family: Montserrat;
+    color: rgb(143, 58, 143);
+    margin-left: 70px;
+}
+.header-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(143, 58, 143);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 25px;
+    
+}
+.buttons-div{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+.hopepsy-logo-button{
+    position: absolute;
+    left: 40px;
+    top: 7px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.hopepsy-logo-button:hover{
+    background-color: white;
+    color: rgb(143, 58, 143);
+}
+.articles-2024-div{
+    margin-top: 140px;
+}
+.h1-2024{
+    font-family: Montserrat;
+    margin-bottom: 0;
+}
+.article1{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid purple;
+    border-radius: 20px;
+    align-items: center;
+}
+.article1-date-h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 85px;
+    margin-right: 0;
+}
+.article1-span-25{
+    font-size: 25px;
+    margin-left: 5px;
+}
+.article1-title{
+    font-size: 30px;
+    margin-left: 70px;
+    padding: 0;
+}
+.article1-link{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.article1-link:hover{
+    text-decoration: underline purple;
+}
+.article1-link:active{
+    color: purple;
+    opacity: 50%;
+}
+.article1-img{
+    border: 2px solid purple;
+    border-radius: 20px;
+    width: 50%;
+}
+.article2{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid purple;
+    border-radius: 20px;
+    align-items: center;
+}
+.article2-date-h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 85px;
+    margin-right: 0;
+}
+.article2-span-25{
+    font-size: 25px;
+    margin-left: 5px;
+}
+.article2-title{
+    font-size: 30px;
+    margin-left: 200px;
+    padding: 0;
+}
+.article2-link{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.article2-link:hover{
+    text-decoration: underline purple;
+}
+.article2-link:active{
+    color: purple;
+    opacity: 50%;
+}
+.article2-img{
+    border: 2px solid purple;
+    border-radius: 20px;
+    width: 50%;
+}

@@ -1,0 +1,114 @@
+
+button{
+    font-family: 'Montserrat';
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(143, 58, 143);
+    border-radius: 18px;
+    padding: 10px;
+    transition: opacity 0.05s, background-color 0.2s, color 0.2s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(143, 58, 143);
+    color: white;
+}
+button:active{
+    opacity: 0.8;
+}
+h1{
+    font-family: Montserrat;
+    color: rgb(143, 58, 143);
+}
+h2{
+    font-family:Montserrat;
+    color: rgb(143, 58, 143);
+}
+h3{
+    font-family:Montserrat;
+    color: rgb(143, 58, 143);
+}
+p{
+    font-family: Montserrat;
+    color: rgb(143, 58, 143);
+}
+.header-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(143, 58, 143);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 25px;
+    
+}
+.buttons-div{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+.hopepsy-logo-button{
+    position: absolute;
+    left: 40px;
+    top: 7px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.hopepsy-logo-button:hover{
+    background-color: white;
+    color: rgb(143, 58, 143);
+}
+.blog-previews{
+    margin-top: 140px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px; 
+    column-gap: 30px;
+    align-items: center;
+}
+.article{
+    border: 3px solid purple;
+    border-radius: 20px;
+}
+img{
+    width: 80%;
+    border: 2px solid purple;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.description{
+    font-size: 14px;
+    margin-left: 60px;
+    width: 300px;
+    text-align: center;
+}
+.title{
+    font-size: 20px;
+    margin-left: 40px;
+}
+.date{
+    font-size: 15px;
+    margin-left: 170px;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline purple;
+}.link:active{
+    opacity: 50%;
+}

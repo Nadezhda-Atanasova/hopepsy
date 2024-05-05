@@ -1,0 +1,137 @@
+button{
+    font-family: 'Montserrat';
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(143, 58, 143);
+    border-radius: 18px;
+    padding: 10px;
+    transition: opacity 0.05s, background-color 0.2s, color 0.2s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(143, 58, 143);
+    color: white;
+}
+button:active{
+    opacity: 0.8;
+}
+h1{
+    font-family: Arial;
+    color: rgb(143, 58, 143);
+    margin-left: 70px;
+}
+p{
+    font-family: Arial;
+    color: rgb(143, 58, 143);
+    margin-left: 70px;
+}
+.header-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(143, 58, 143);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 25px;
+    
+}
+.buttons-div{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+.hopepsy-logo-button{
+    position: absolute;
+    left: 40px;
+    top: 7px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.hopepsy-logo-button:hover{
+    background-color: white;
+    color: rgb(143, 58, 143);
+}
+
+.welcome-to-hopepsy-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 40px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+}
+.welcome-to-hopepsy-text-div{
+    margin-top: 100px;
+}
+.welcome-to-hopepsy-h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 47px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-top: 130px;
+    width: 100%;
+}
+.welcome-to-hopepsy-para{
+    font-family: 'Montserrat';
+    margin-top: 0;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+.brainbalance1-img{
+    width: 55%;
+    border-radius: 140px;
+    margin-left: 200px;
+    margin-top: 130px;
+    height: 400px;
+}
+.with-hopepsy-you-can-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 40px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+}
+.with-hopepsy-you-can-text-div{
+    margin-right: 100px;
+    margin-left: -170px;
+}
+.with-hopepsy-you-can-h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-top: 160px;
+    padding-left: 50px;
+}
+.with-hopepsy-you-can-para{
+    font-family: 'Montserrat';
+    margin-top: 0;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+.brainbalance2-img{
+    border-radius: 140px;
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-right: 0;
+    width: 55%;
+    height: 400px;
+}
+
+.second-img-div{
+    margin-right: 0;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="styles/contacts.css">
+    <title>HopePsy &#124; Контакти</title>
+</head>
+<body style="margin:0;overflow-x: hidden;">
+
+    <!------менюто с копчетата и логото--------->
+  <div class="header-div">
+    <button class="hopepsy-logo-button" onclick="location.href='index.html'">HopePsy</button>
+    <div class="buttons-div">
+        <button class="events-button" onclick="location.href='events.html'">Събития</button>
+        <button class="about-me-button" onclick="location.href='about-me.html'">За мен</button>
+        <button class="blog-button" onclick="location.href='blog.html'">Блог</button>
+        <button class="contacts-button" onclick="location.href='contacts.html'">Контакти</button>
+    </div>
+  </div>
+  <!------менюто с копчетата и логото--------->
+  
+  <!--Можете да се свържете с мен на-->
+  <div class="contacts-div">
+    <!--форма за контакти-->
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form-form">
+      <h1 class="contact-form-title-h1">
+        Изпратете запитване...
+      </h1>
+      <div class="contact-form-div">
+        
+        <h1 class="contact-form-name-h1">
+          Име*
+        </h1>
+        <input type="hidden" name="access_key" value="c1cf46c6-7d9d-4752-8aaa-a2aa3e5feeea">
+        <input type="text" name="name" class="contact-form-name-input" required oninvalid="this.setCustomValidity('Полето е задължително')" oninput="this.setCustomValidity('')">
+        <h1 class="contact-form-email-h1">
+          Имейл*
+        </h1>
+        <input type="email" name="email" class="contact-form-email-input" required oninvalid="this.setCustomValidity('Полето е задължително')" oninput="this.setCustomValidity('')">
+        <h1 class="contact-form-subject-h1">
+          Тема*
+        </h1>
+        <input type="subject" name="subject" class="contact-form-subject-input" required oninvalid="this.setCustomValidity('Полето е задължително')" oninput="this.setCustomValidity('')">
+        <h1 class="contact-form-message-h1">
+          Съобщение
+        </h1>
+        <textarea name="message" class="contact-form-message-textarea"></textarea>
+        <button class="contact-form-submit-button">
+          Изпрати
+        </button>
+      </div>
+    </form>  
+      
+    <div class="contact-info-div">
+      <h1 class="contact-me-title-h1">
+        ...или се свържете с мен на
+      </h1>
+      <h2 class="phone-number-h2">
+        телефон: <br>0886797435
+      </h2>
+      <br>
+      <h2 class="email-h2">
+        email: <br>nadezhda.atanasova36@gmail.com
+      </h2>
+    </div>
+  </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,198 @@
+button{
+    font-family: 'Montserrat';
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(143, 58, 143);
+    border-radius: 18px;
+    padding: 10px;
+    transition: opacity 0.05s, background-color 0.2s, color 0.2s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(143, 58, 143);
+    color: white;
+}
+button:active{
+    opacity: 0.8;
+}
+h1{
+    font-family: Montserrat;
+    color: rgb(143, 58, 143);
+    margin-left: 70px;
+}
+h2{
+    font-family: Montserrat;
+    color: rgb(143, 58, 143);
+    margin-left: 70px;
+    font-weight: 300;
+}
+p{
+    font-family: Montserrat;
+    color: rgb(143, 58, 143);
+    margin-left: 70px;
+}
+textarea{
+    resize: none;
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline:none;
+}
+.header-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(143, 58, 143);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 25px;
+    
+}
+.buttons-div{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+.hopepsy-logo-button{
+    position: absolute;
+    left: 40px;
+    top: 7px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.hopepsy-logo-button:hover{
+    background-color: white;
+    color: rgb(143, 58, 143);
+}
+.contacts-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-form-div{
+    margin-left: 140px;
+}
+.contact-form-title-h1{
+    font-family: Montserrat;
+    font-size: 35px;
+    margin-top: 130px;
+    margin-left: 170px;
+}
+.contact-form-name-h1{
+    font-family: Montserrat;
+    margin-top: 30px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact-form-name-input{
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 0;
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 10px;
+}
+.contact-form-email-h1{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+.contact-form-email-input{
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 0;
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 10px;
+}
+.contact-form-subject-h1{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+.contact-form-subject-input{
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 0;
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 10px;
+}
+.contact-form-message-h1{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+.contact-form-message-textarea{
+    display:block;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 0;
+    width: 300px;
+    padding: 10px;
+    height: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: purple;
+    border-radius: 10px;
+}
+.contact-form-submit-button{
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 30px;
+    background-color: rgb(143, 58, 143);
+    color: white;
+    transition: box-shadow 0.15s;
+}
+.contact-form-submit-button:hover{
+    box-shadow: 0 0 10px 4px rgba(143,58,143, 0.5);
+}
+.contact-info-div{
+    margin-top: 111px; /*111px so both titles are leveled*/
+    margin-left: -150px;
+}
+
+.contact-me-title-h1{
+    margin-left: 170px;
+}
+.phone-number-h2{
+    margin-left: -60px;
+    text-align: center;
+    font-size: 26px;
+}
+.email-h2{
+    margin-left: -60px;
+    text-align: center;
+    font-size: 26px;
+}
