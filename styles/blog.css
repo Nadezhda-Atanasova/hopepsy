@@ -81,7 +81,6 @@ p{
 .article{
     border: 3px solid purple;
     border-radius: 20px;
-    padding: 40px;
 }
 img{
     width: 80%;
@@ -96,6 +95,7 @@ img{
     margin-left: 80px;
     width: 300px;
     text-align: center;
+    height: 100px;
 }
 .title{
     font-size: 20px;
