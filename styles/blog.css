@@ -76,7 +76,6 @@ p{
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 50px; 
     column-gap: 30px;
-    align-items: center;
 }
 .article{
     border: 3px solid purple;
@@ -96,7 +95,7 @@ img{
     margin-left: 80px;
     width: 300px;
     text-align: center;
-    height: 180px;
+    height: 150px;
 }
 .title{
     font-size: 20px;
