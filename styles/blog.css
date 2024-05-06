@@ -84,6 +84,7 @@ p{
 }
 img{
     width: 80%;
+    height: 185px;
     border: 2px solid purple;
     border-radius: 20px;
     margin-left: 40px;
@@ -92,17 +93,19 @@ img{
 
 .description{
     font-size: 14px;
-    margin-left: 80px;
+    margin-left: 60px;
     width: 300px;
     height: 150px;
+    text-align: center;
 }
 .title{
     font-size: 20px;
     text-align: center;
+    height: 60px;
 }
 .date{
     font-size: 15px;
-    margin-left: 180px;
+    margin-left: 165px;
 }
 .link{
     text-decoration: none;
