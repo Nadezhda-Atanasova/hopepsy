@@ -65,6 +65,7 @@ p{
 .welcome-to-hopepsy-div{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     padding-bottom: 40px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
@@ -78,8 +79,7 @@ p{
     font-size: 47px;
     letter-spacing: 2px;
     margin-bottom: 30px;
-    margin-top: 130px;
-    width: 100%;
+    width: 700px;
 }
 .welcome-to-hopepsy-para{
     font-family: 'Montserrat';
@@ -89,15 +89,15 @@ p{
     text-align: center;
 }
 .brainbalance1-img{
-    width: 55%;
+    width: 400px;
     border-radius: 140px;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 130px;
-    height: 400px;
 }
 .with-hopepsy-you-can-div{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     padding-bottom: 40px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
@@ -112,8 +112,6 @@ p{
     font-size: 50px;
     letter-spacing: 2px;
     margin-bottom: 30px;
-    width: 100%;
-    margin-top: 160px;
     padding-left: 50px;
 }
 .with-hopepsy-you-can-para{
@@ -128,8 +126,7 @@ p{
     margin-left: 70px;
     margin-top: 40px;
     margin-right: 0;
-    width: 55%;
-    height: 400px;
+    width: 400px;
 }
 
 .second-img-div{
