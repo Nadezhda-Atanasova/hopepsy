@@ -105,7 +105,7 @@ img{
 }
 .date{
     font-size: 15px;
-    margin-left: 165px;
+    text-align: center;
 }
 .link{
     text-decoration: none;
