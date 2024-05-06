@@ -93,19 +93,19 @@ img{
 
 .description{
     font-size: 14px;
-    margin-left: 60px;
-    width: 300px;
     height: 150px;
     text-align: center;
 }
 .title{
-    font-size: 20px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
     height: 60px;
 }
 .date{
     font-size: 15px;
-    margin-left: 165px;
+    text-align: center;
 }
 .link{
     text-decoration: none;
