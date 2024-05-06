@@ -65,21 +65,20 @@ p{
 }
 .about-me-div{
     display: grid;
-    grid-template-columns: 1fr 0.95fr;
-
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 170px;
 }
 .about-me-p{
     font-family: 'Montserrat';
     font-size: 30px;
-    margin-top: 220px;
     text-align: center;
 }
 .manana2-img{
     width: 50%;
     border-radius: 100px;
-    margin-left: 200px;
-    margin-top: 180px;
     border: 5px solid purple;
+    margin-left: 200px;
 }
 .nadezhda-atanasova-span{
     font-weight: bold;
