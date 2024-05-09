@@ -91,13 +91,12 @@ p{
     font-size: 25px;
     margin-left: 5px;
 }
-.article1-title{
+.title1{
     font-size: 30px;
     text-align: center;
     padding: 0;
 }
 .article1-link{
-    display: inline-block;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -110,51 +109,6 @@ p{
     opacity: 50%;
 }
 .article1-img{
-    border: 2px solid purple;
-    border-radius: 20px;
-    width: 50%;
-}
-.article2{
-    display: grid;
-    grid-template-columns: 0.3fr 1fr 0.3fr;
-    margin-top: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 5px solid purple;
-    border-radius: 20px;
-    align-items: center;
-}
-.article2-date-h1{
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 85px;
-    margin-right: 0;
-}
-.article2-span-25{
-    font-size: 25px;
-    margin-left: 5px;
-}
-.article2-title{
-    font-size: 30px;
-    text-align: center;
-    padding: 0;
-}
-.article2-link{
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-.article2-link:hover{
-    text-decoration: underline purple;
-}
-.article2-link:active{
-    color: purple;
-    opacity: 50%;
-}
-.article2-img{
     border: 2px solid purple;
     border-radius: 20px;
     width: 50%;
@@ -218,13 +172,12 @@ p{
         display: block;
         padding-bottom: 25px;
     }
-    .article1-title{
+    .title1{
         margin: 0;
         margin-top: 10px;
         margin-bottom: 20px;
         padding: 0;
         font-size: 25px;
-        text-align: center;
         font-weight: 500;
 
     }
@@ -240,31 +193,6 @@ p{
         width: 70%;
     }
     
-    .article2{
-        display: block;
-        padding-bottom: 25px;
-        
-    }
-    .article2-title{
-        margin: 0;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        padding: 0;
-        font-size: 25px;
-        text-align: center;
-        font-weight: 500;
-    }
-    .article2-date-h1, .article2-span-25{
-        margin: 0;
-        text-align: center;
-        font-size: 15px;
-    }
-    .article2-img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 70%;
-    }
     .articles-2024-div{
         margin-top: 50px;
     }
