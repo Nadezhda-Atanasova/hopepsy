@@ -158,3 +158,115 @@ p{
     border-radius: 20px;
     width: 50%;
 }
+.hopepsy-logo-button-mobile{
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+.buttons-div-mobile{
+    display: none;
+}
+.events-button-mobile, .about-me-button-mobile, .blog-button-mobile, .contacts-button-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    /*header*/
+    button{
+        font-family: 'Montserrat';
+        margin: 0;
+        margin-left: 0;
+        border: none;
+        background-color: rgb(143, 58, 143);
+        font-size: 14px;
+        color: white;
+        border-radius: 18px;
+        padding: 6px;
+    }
+    .header-div{
+        display: none;
+    }
+    .header-div-mobile{
+        border-bottom: 1px solid rgb(143, 58, 143);
+    }
+    .hopepsy-logo-link-mobile{
+        text-decoration:none ;
+    }
+    .buttons-div-mobile{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+        margin: 20px;
+    }
+    .events-button-mobile, .about-me-button-mobile, .blog-button-mobile, .contacts-button-mobile{
+        display: inline-block;
+    }
+    .hopepsy-logo-button-mobile{
+        font-family: 'Dancing Script';
+        font-size: 60px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        margin: 0;
+    }
+    /*header*/
+
+    .article1{
+        display: block;
+        padding-bottom: 25px;
+    }
+    .article1-title{
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 0;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .article1-date-h1, .article1-span-25{
+        margin: 0;
+        text-align: center;
+        font-size: 15px;
+    }
+    .article1-img{
+        margin-left: 38px;
+        width: 70%;
+    }
+    
+    .article2{
+        display: block;
+        padding-bottom: 25px;
+    }
+    .article2-title{
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 0;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 500;
+
+        /* do not copy this shit! it is specific to article 2*/
+            margin-left: 57px;
+        /* do not copy this shit! it is specific to article 2*/
+    }
+    .article2-date-h1, .article2-span-25{
+        margin: 0;
+        text-align: center;
+        font-size: 15px;
+    }
+    .article2-img{
+        margin-left: 38px;
+        width: 70%;
+    }
+    .articles-2024-div{
+        margin-top: 50px;
+    }
+    .h1-2024{
+        text-align: center;
+        margin: 0;
+    }
+}
