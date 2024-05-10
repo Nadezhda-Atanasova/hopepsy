@@ -92,3 +92,77 @@ p{
     margin-right: auto;
     width: 60%;
 }
+
+.hopepsy-logo-button-mobile{
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+.buttons-div-mobile{
+    display: none;
+}
+.events-button-mobile, .about-me-button-mobile, .blog-button-mobile, .contacts-button-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    /*header*/
+    button{
+        font-family: 'Montserrat';
+        margin: 0;
+        margin-left: 0;
+        border: none;
+        background-color: rgb(143, 58, 143);
+        font-size: 14px;
+        color: white;
+        border-radius: 18px;
+        padding: 6px;
+    }
+    .header-div{
+        display: none;
+    }
+    .header-div-mobile{
+        border-bottom: 1px solid rgb(143, 58, 143);
+    }
+    .hopepsy-logo-link-mobile{
+        text-decoration:none ;
+    }
+    .buttons-div-mobile{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+        margin: 20px;
+    }
+    .events-button-mobile, .about-me-button-mobile, .blog-button-mobile, .contacts-button-mobile{
+        display: inline-block;
+    }
+    .hopepsy-logo-button-mobile{
+        font-family: 'Dancing Script';
+        font-size: 60px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+    /*header*/
+
+    .page-layout{
+        margin-top: 30px;
+    }
+
+    .title{
+        margin: 0;
+        width: 100%;
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .cover{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .description{
+        font-size: 20px;
+        width: 95%;
+    }
+}
