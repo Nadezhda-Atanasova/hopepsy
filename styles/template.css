@@ -156,6 +156,8 @@ p{
         width: 100%;
         font-size: 28px;
         margin-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .cover{
         width: 80%;
