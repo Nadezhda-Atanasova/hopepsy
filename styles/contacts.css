@@ -279,3 +279,72 @@ textarea:focus{
     }
     
 }
+
+@media only screen and (min-width: 350px){
+    /*header*/
+    button{
+        font-family: 'Montserrat';
+        margin: 0;
+        margin-left: 0;
+        border: none;
+        background-color: rgb(143, 58, 143);
+        font-size: 14px;
+        color: white;
+        border-radius: 18px;
+        padding: 6px;
+    }
+    .header-div{
+        display: none;
+    }
+    .header-div-mobile{
+        border-bottom: 1px solid rgb(143, 58, 143);
+    }
+    .hopepsy-logo-link-mobile{
+        text-decoration:none ;
+    }
+    .buttons-div-mobile{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+        margin: 20px;
+    }
+    .events-button-mobile, .about-me-button-mobile, .blog-button-mobile, .contacts-button-mobile{
+        display: inline-block;
+    }
+    .hopepsy-logo-button-mobile{
+        font-family: 'Dancing Script';
+        font-size: 60px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+    /*header*/
+
+    .contacts-div{
+        display: block;
+    }
+    .contact-form-div, .contact-form-title-h1{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .contact-form-title-h1{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .contact-form-name-input, .contact-form-name-h1, .contact-form-email-input, .contact-form-email-h1, .contact-form-subject-input, .contact-form-subject-h1, .contact-form-message-textarea, .contact-form-message-h1{
+        margin-left: 25px;
+    }
+    .contact-form-submit-button{
+        margin-left: 26px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .contact-info-div{
+        margin-left: 0;
+    }
+    .contact-me-title-h1, .phone-number-h2, .email-h2{
+        margin-left: 0;
+        text-align: center;
+    }
+    
+}
