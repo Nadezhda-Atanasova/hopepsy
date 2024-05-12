@@ -1,4 +1,6 @@
-
+body{
+    height: 1000px;
+}
 button{
     font-family: 'Montserrat';
     margin-left: 20px;
@@ -48,7 +50,6 @@ p{
     left: 0;
     right: 0;
     padding-bottom: 25px;
-    
 }
 .buttons-div{
     display: flex;
@@ -69,7 +70,7 @@ p{
     color: rgb(143, 58, 143);
 }
 .blog-previews{
-    margin-top: 140px;
+    margin-top: 90px;
     margin-left: 60px;
     margin-right: 60px;
     display: grid;
@@ -92,16 +93,18 @@ img{
 }
 
 .description{
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 14px;
     height: 150px;
     text-align: center;
 }
 .title{
     font-size: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
-    height: 60px;
+    height: 50px;
 }
 .date{
     font-size: 15px;
@@ -114,4 +117,143 @@ img{
     text-decoration: underline purple;
 }.link:active{
     opacity: 50%;
+}
+.hopepsy-logo-button-mobile{
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+.buttons-div-mobile{
+    display: none;
+}
+.events-button-mobile, .about-me-button-mobile, .blog-button-mobile, .contacts-button-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    /*header*/
+    button{
+        font-family: 'Montserrat';
+        margin: 0;
+        margin-left: 0;
+        border: none;
+        background-color: rgb(143, 58, 143);
+        font-size: 14px;
+        color: white;
+        border-radius: 18px;
+        padding: 6px;
+    }
+    .header-div{
+        display: none;
+    }
+    .header-div-mobile{
+        border-bottom: 1px solid rgb(143, 58, 143);
+    }
+    .hopepsy-logo-link-mobile{
+        text-decoration:none ;
+    }
+    .buttons-div-mobile{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+        margin: 20px;
+    }
+    .events-button-mobile, .about-me-button-mobile, .blog-button-mobile, .contacts-button-mobile{
+        display: inline-block;
+    }
+    .hopepsy-logo-button-mobile{
+        font-family: 'Dancing Script';
+        font-size: 60px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+    /*header*/
+
+    .blog-previews{
+        display: block;
+        margin-top: 30px;
+    }
+    .article{
+        margin-bottom: 30px;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 23px;
+    }
+    .title{
+        height: auto;
+    }
+    .description{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 350px){
+    /*header*/
+    button{
+        font-family: 'Montserrat';
+        margin: 0;
+        margin-left: 0;
+        border: none;
+        background-color: rgb(143, 58, 143);
+        font-size: 14px;
+        color: white;
+        border-radius: 18px;
+        padding: 6px;
+    }
+    .header-div{
+        display: none;
+    }
+    .header-div-mobile{
+        border-bottom: 1px solid rgb(143, 58, 143);
+    }
+    .hopepsy-logo-link-mobile{
+        text-decoration:none ;
+    }
+    .buttons-div-mobile{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+        margin: 20px;
+    }
+    .events-button-mobile, .about-me-button-mobile, .blog-button-mobile, .contacts-button-mobile{
+        display: inline-block;
+    }
+    .hopepsy-logo-button-mobile{
+        font-family: 'Dancing Script';
+        font-size: 60px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+    /*header*/
+
+    .blog-previews{
+        display: block;
+        margin-top: 30px;
+    }
+    .article{
+        margin-bottom: 30px;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 23px;
+    }
+    .title{
+        height: auto;
+    }
+    .description{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+    }
 }
