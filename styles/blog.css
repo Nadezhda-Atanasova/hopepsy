@@ -84,11 +84,13 @@ p{
     padding: 0;
 }
 img{
+    display: block;
     width: 80%;
     height: 185px;
     border: 2px solid purple;
     border-radius: 20px;
-    margin-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
 }
 
