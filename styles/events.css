@@ -78,7 +78,7 @@ p{
     column-gap: 30px;
 }
 .article1{
-    border: 3px solid purple;
+    text-align: center;
     border-radius: 20px;
     padding: 0;
 }
@@ -100,6 +100,7 @@ p{
     opacity: 50%;
 }
 .article1-img{
+    border: 1px solid purple;
     border-radius: 20px;
     width: 50%;
 }
