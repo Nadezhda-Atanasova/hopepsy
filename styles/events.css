@@ -78,7 +78,7 @@ p{
     column-gap: 30px;
 }
 .article1{
-    display: flex;
+    display: grid;
     align-items: center;
 }
 .title1{
