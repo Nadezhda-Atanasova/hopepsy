@@ -68,9 +68,20 @@ p{
     font-family: Montserrat;
     margin-bottom: 0;
 }
-/* .article1{
-    
-} */
+.events-previews{
+    margin-top: 90px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px; 
+    column-gap: 30px;
+}
+.article1{
+    border: 3px solid purple;
+    border-radius: 20px;
+    padding: 0;
+}
 .title1{
     font-size: 30px;
     text-align: center;
