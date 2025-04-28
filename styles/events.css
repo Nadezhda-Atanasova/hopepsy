@@ -82,6 +82,7 @@ p{
     border: 3px solid purple;
 }
 .title1{
+    margin: 0;
     font-size: 30px;
     padding: 0;
 }
