@@ -70,7 +70,6 @@ p{
 }
 .events-previews{
     margin-top: 30px;
-    margin-left: 60px;
     margin-right: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
