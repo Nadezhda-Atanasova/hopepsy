@@ -80,6 +80,7 @@ p{
 .article1{
     display: grid;
     align-items: center;
+    text-align: center;
 }
 .title1{
     font-size: 30px;
@@ -93,6 +94,7 @@ p{
 }
 .article1-link:hover{
     text-decoration: underline purple;
+    transition: 0.3s;
 }
 .article1-link:active{
     color: purple;
@@ -100,8 +102,7 @@ p{
 }
 .article1-img{
     display: block;
-    align-items: center;
-    text-align: center;
+    margin: auto;
     border: 2px solid purple;
     border-radius: 20px;
     width: 50%;
