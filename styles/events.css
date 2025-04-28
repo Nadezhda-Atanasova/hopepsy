@@ -82,7 +82,7 @@ p{
     border: 3px solid purple;
 }
 .title1{
-    margin: 0;
+    margin-left: 0;
     font-size: 30px;
     padding: 0;
 }
@@ -101,7 +101,7 @@ p{
 }
 .article1-img{
     display: block;
-    /* margin: auto; */
+    margin: auto;
     border: 2px solid purple;
     border-radius: 20px;
     width: 50%;
