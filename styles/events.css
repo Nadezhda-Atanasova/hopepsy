@@ -73,7 +73,7 @@ p{
     margin-left: 60px;
     margin-right: 60px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     row-gap: 50px; 
     column-gap: 30px;
 }
