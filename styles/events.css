@@ -78,7 +78,6 @@ p{
     column-gap: 30px;
 }
 .article1{
-    display: grid;
     border: 3px solid purple;
 }
 .title1{
