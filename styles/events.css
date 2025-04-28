@@ -166,6 +166,9 @@ p{
     }
     /*header*/
 
+    .events-previews{
+        display: block;
+    }
     .article1{
         padding-bottom: 25px;
     } 
