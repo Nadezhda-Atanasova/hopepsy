@@ -67,7 +67,7 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 0;
 }
 .about-me-p{
     font-family: 'Montserrat';
