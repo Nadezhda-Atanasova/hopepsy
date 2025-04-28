@@ -89,10 +89,10 @@ p{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    transition-duration: 0.3s;
 }
 .article1-link:hover{
     text-decoration: underline purple;
-    transition-duration: 0.3s;
 }
 .article1-link:active{
     color: purple;
@@ -100,7 +100,7 @@ p{
 }
 .article1-img{
     display: block;
-    margin: auto;
+    /* margin: auto; */
     border: 2px solid purple;
     border-radius: 20px;
     width: 50%;
