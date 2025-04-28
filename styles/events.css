@@ -77,11 +77,11 @@ p{
     row-gap: 50px; 
     column-gap: 30px;
 }
-.article1{
+/* .article1{
     display: grid;
     align-items: center;
     text-align: center;
-}
+} */
 .title1{
     font-size: 30px;
     text-align: center;
