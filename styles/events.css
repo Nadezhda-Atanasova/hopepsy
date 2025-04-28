@@ -100,6 +100,8 @@ p{
 }
 .article1-img{
     display: block;
+    align-items: center;
+    text-align: center;
     border: 2px solid purple;
     border-radius: 20px;
     width: 50%;
