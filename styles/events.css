@@ -81,6 +81,7 @@ p{
     border: 3px solid purple;
 }
 .title1{
+    text-align: center;
     font-size: 30px;
     padding: 0;
 }
