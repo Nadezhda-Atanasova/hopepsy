@@ -181,9 +181,8 @@ p{
     }
     .article1-img{
         display: block;
-        /* margin-left: auto;
-        margin-right: auto; */
-        width: 70%;
+        margin: auto;
+        width: 60%;
     }
     
     .articles-2024-div{
