@@ -76,7 +76,7 @@ p{
     row-gap: 50px; 
     column-gap: 30px;
 }
-.article1{
+/* .article1{
     align-items: center;
 }
 .title1{
@@ -95,13 +95,13 @@ p{
 .article1-link:active{
     color: purple;
     opacity: 50%;
-}
-/* .article1-img{
+} */
+.article1-img{
     display: block;
     border: 1px solid purple;
     border-radius: 20px;
     width: 50%;
-} */
+}
 .hopepsy-logo-button-mobile{
     font-family: 'Dancing Script';
     font-size: 40px;
