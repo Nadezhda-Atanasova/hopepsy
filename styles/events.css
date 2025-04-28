@@ -82,6 +82,7 @@ p{
 }
 .title1{
     font-size: 30px;
+    text-align: center;
     padding: 0;
 }
 .article1-link{
@@ -98,6 +99,7 @@ p{
 }
 .article1-img{
     display: block;
+    text-align: center;
     border: 1px solid purple;
     border-radius: 20px;
     width: 50%;
