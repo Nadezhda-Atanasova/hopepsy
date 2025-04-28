@@ -167,7 +167,7 @@ p{
     /*header*/
 
     .article1{
-        display: flex;
+        display: block;
         padding-bottom: 25px;
     } 
     .title1{
