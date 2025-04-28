@@ -80,7 +80,13 @@ p{
 }
 .title1{
     margin-left: 0;
-    font-size: 30px;
+    font-size: 25px;
+    padding: 0;
+    text-align: center;
+}
+.title2{
+    margin-left: 0;
+    font-size: 15px;
     padding: 0;
     text-align: center;
 }
