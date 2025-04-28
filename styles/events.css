@@ -68,8 +68,8 @@ p{
     font-family: Montserrat;
     margin-bottom: 0;
 }
-.article1{
-    /* display: grid;
+/* .article1{
+    display: grid;
     grid-template-columns: 0.3fr 1fr 0.3fr;
     margin-top: 100px;
     margin-right: 50px;
@@ -79,8 +79,8 @@ p{
     padding-bottom: 10px;
     border: 5px solid purple;
     border-radius: 20px;
-    align-items: center; */
-}
+    align-items: center;
+} */
 .title1{
     font-size: 30px;
     text-align: center;
