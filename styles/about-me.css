@@ -73,12 +73,14 @@ p{
     font-family: 'Montserrat';
     font-size: 30px;
     text-align: center;
+    margin-top: 70px;
 }
 .manana2-img{
     width: 50%;
     border-radius: 50px;
     border: 2px solid purple;
     margin-left: 200px;
+    margin-top: 50px;
 }
 .nadezhda-atanasova-span{
     font-weight: bold;
