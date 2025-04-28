@@ -77,11 +77,12 @@ p{
     row-gap: 50px; 
     column-gap: 30px;
 }
-/* .article1{
+.article1{
     display: grid;
     align-items: center;
     text-align: center;
-} */
+    border: 3px solid purple;
+}
 .title1{
     font-size: 30px;
     text-align: center;
@@ -94,7 +95,7 @@ p{
 }
 .article1-link:hover{
     text-decoration: underline purple;
-    transition: 0.3s;
+    transition-duration: 0.3s;
 }
 .article1-link:active{
     color: purple;
