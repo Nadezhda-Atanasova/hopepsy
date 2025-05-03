@@ -203,6 +203,8 @@ textarea:focus{
 .instagram-logo{
     width: 3%;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .instagram-link{
     display: inline-block;
