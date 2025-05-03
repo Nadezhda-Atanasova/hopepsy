@@ -212,6 +212,7 @@ textarea:focus{
     text-align: center;
 }
 .instagram-link{
+    display: inline;
     margin: 0;
     padding: 0;
 }
