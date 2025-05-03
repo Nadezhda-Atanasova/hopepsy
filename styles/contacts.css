@@ -211,6 +211,9 @@ textarea:focus{
     margin-left: 0;
     text-align: center;
 }
+.instagram-link{
+    width: auto;
+}
 
 .hopepsy-logo-button-mobile{
     font-family: 'Dancing Script';
