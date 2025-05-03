@@ -135,7 +135,9 @@ p{
 } 
 .instagram-logo{
     width: 5%;
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .second-img-div{
