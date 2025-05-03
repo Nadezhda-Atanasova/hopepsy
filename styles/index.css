@@ -140,8 +140,9 @@ p{
     margin-right: auto;
 }
 .email-address{
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 0;
+    text-align: center;
 }
 
 .second-img-div{
