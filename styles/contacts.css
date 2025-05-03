@@ -1,8 +1,4 @@
-body{
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none;
-}
+
 button{
     font-family: 'Montserrat';
     margin-left: 20px;
@@ -113,7 +109,7 @@ textarea:focus{
 }
 .contact-form-submit-button{
     font-weight: bold;
-    
+    width: 321px;
     margin-left: 0;
     background-color: rgb(143, 58, 143);
     color: white;
@@ -125,20 +121,24 @@ textarea:focus{
 
 .contact-me-title-h1{
     margin-left: 0;
+    margin-top: 50px;
 }
 .instagram-logo{
     width: 3%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+.email-logo{
+    width: 3.5%;
+}
+.phone-logo{
+    width: 3%;
 }
 .instagram-link{
     display: inline-block;
+    text-decoration: none;
 }
-.email-address{
+.instagram, .email-address, .phone{
     font-size: 16px;
-    margin-left: 0;
-    text-align: center;
+    margin-left: 10px;
 }
 
 
