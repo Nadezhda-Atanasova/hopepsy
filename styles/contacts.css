@@ -208,7 +208,6 @@ textarea:focus{
     display: inline-block;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 .email-address{
     font-size: 16px;
