@@ -199,7 +199,17 @@ textarea:focus{
 .email-h2{
     margin-left: -60px;
     text-align: center;
-    font-size: 26px;
+}
+.instagram-logo{
+    width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.email-address{
+    font-size: 16px;
+    margin-left: 0;
+    text-align: center;
 }
 
 .hopepsy-logo-button-mobile{
