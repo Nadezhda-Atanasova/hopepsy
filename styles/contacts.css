@@ -84,26 +84,16 @@ textarea:focus{
 .contacts-div{
     text-align: center;
 }
-.contact-form-div{
-    margin-left: 140px;
-}
+
 .contact-form-title-h1{
     font-family: Montserrat;
     font-size: 35px;
-    margin-top: 100px;
-    margin-left: 170px;
+    margin-top: 70px;
+    margin-left: 0;
 }
-.contact-form-name-h1{
-    font-family: Montserrat;
-    margin-top: 30px;
-    margin-bottom: 4px;
-    font-size: 18px;
-    font-weight: 400;
-}
-.contact-form-name-input{
+.contact-form-name-input, .contact-form-email-input, .contact-form-date-input{
     font-family: Montserrat;
     font-size: 15px;
-    margin-left: 70px;
     margin-top: 0;
     width: 300px;
     height: 20px;
@@ -112,69 +102,19 @@ textarea:focus{
     border-color: purple;
     border-radius: 10px;
 }
-.contact-form-email-h1{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-bottom: 4px;
-}
-.contact-form-email-input{
+.contact-form-consultation-input{
     font-family: Montserrat;
     font-size: 15px;
-    margin-left: 70px;
     margin-top: 0;
-    width: 300px;
-    height: 20px;
-    padding: 10px;
-    border-style: solid;
-    border-color: purple;
-    border-radius: 10px;
-}
-.contact-form-subject-h1{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-bottom: 4px;
-}
-.contact-form-subject-input{
-    font-family: Montserrat;
-    font-size: 15px;
-    margin-left: 70px;
-    margin-top: 0;
-    width: 300px;
-    height: 20px;
-    padding: 10px;
-    border-style: solid;
-    border-color: purple;
-    border-radius: 10px;
-}
-.contact-form-message-h1{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-bottom: 4px;
-}
-.contact-form-message-textarea{
-    display:block;
-    font-family: Montserrat;
-    font-size: 15px;
-    margin-left: 70px;
-    margin-top: 0;
-    width: 300px;
-    padding: 10px;
-    height: 150px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: purple;
+    width: 321px;
+    height: 40px;
+    border: solid purple 2px;
     border-radius: 10px;
 }
 .contact-form-submit-button{
     font-weight: bold;
-    margin-left: 70px;
-    margin-top: 30px;
+    
+    margin-left: 0;
     background-color: rgb(143, 58, 143);
     color: white;
     transition: box-shadow 0.15s;
@@ -182,22 +122,9 @@ textarea:focus{
 .contact-form-submit-button:hover{
     box-shadow: 0 0 10px 4px rgba(143,58,143, 0.5);
 }
-.contact-info-div{
-    margin-top: 82px; /*82 so both titles are leveled*/
-    margin-left: -150px;
-}
 
 .contact-me-title-h1{
-    margin-left: 170px;
-}
-.phone-number-h2{
-    margin-left: -60px;
-    text-align: center;
-    font-size: 26px;
-}
-.email-h2{
-    margin-left: -60px;
-    text-align: center;
+    margin-left: 0;
 }
 .instagram-logo{
     width: 3%;
