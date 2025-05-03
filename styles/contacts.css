@@ -212,9 +212,8 @@ textarea:focus{
     text-align: center;
 }
 .instagram-link{
-    display: inline-block;
-    line-height: 1em;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .hopepsy-logo-button-mobile{
