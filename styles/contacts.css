@@ -79,15 +79,9 @@ textarea:focus{
 }
 .contacts-div{
     text-align: center;
+    margin-top: 170px;
 }
-
-.contact-form-title-h1{
-    font-family: Montserrat;
-    font-size: 35px;
-    margin-top: 70px;
-    margin-left: 0;
-}
-.contact-form-name-input, .contact-form-email-input, .contact-form-date-input{
+/* .contact-form-name-input, .contact-form-email-input, .contact-form-date-input{
     font-family: Montserrat;
     font-size: 15px;
     margin-top: 0;
@@ -122,7 +116,7 @@ textarea:focus{
 .contact-me-title-h1{
     margin-left: 0;
     margin-top: 50px;
-}
+} */
 .instagram-logo{
     width: 3%;
 }
@@ -134,7 +128,8 @@ textarea:focus{
 }
 .instagram-link{
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: purple;
 }
 .instagram, .email-address, .phone{
     font-size: 16px;
@@ -196,7 +191,7 @@ textarea:focus{
     }
     /*header*/
 
-    .contacts-div{
+    /* .contacts-div{
         display: block;
     }
     .contact-form-div, .contact-form-title-h1{
@@ -221,6 +216,20 @@ textarea:focus{
     .contact-me-title-h1, .phone-number-h2, .email-h2{
         margin-left: 0;
         text-align: center;
+    } */
+
+    .contacts-div{
+        text-align: center;
+        margin-top: 45px;
+    }
+    .instagram-logo{
+        width: 10%;
+    }
+    .email-logo{
+        width: 12%;
+    }
+    .phone-logo{
+        width: 8%;
     }
     
 }
