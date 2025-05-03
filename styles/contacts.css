@@ -84,7 +84,7 @@ textarea:focus{
 .contacts-div{
     text-align: center;
 }
-.contact-form-div{
+/* .contact-form-div{
     margin-left: 140px;
 }
 .contact-form-title-h1{
@@ -178,7 +178,7 @@ textarea:focus{
     background-color: rgb(143, 58, 143);
     color: white;
     transition: box-shadow 0.15s;
-}
+} */
 .contact-form-submit-button:hover{
     box-shadow: 0 0 10px 4px rgba(143,58,143, 0.5);
 }
