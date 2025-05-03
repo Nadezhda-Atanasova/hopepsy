@@ -82,8 +82,7 @@ textarea:focus{
     color: rgb(143, 58, 143);
 }
 .contacts-div{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    text-align: center;
 }
 .contact-form-div{
     margin-left: 140px;
